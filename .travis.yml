@@ -3,4 +3,4 @@ install:
   - docker-compose --version
 
 script:
-  - docker build --rm -t baseimage:latest
+  - docker build --rm -t baseimage:latest .
